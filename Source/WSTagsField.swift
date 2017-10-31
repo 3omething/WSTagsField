@@ -85,7 +85,7 @@ open class WSTagsField: UIScrollView {
     }
 
     open fileprivate(set) var tags = [WSTag]()
-    internal var tagViews = [WSTagView]()
+    var tagViews = [WSTagView]()
     fileprivate var intrinsicContentHeight: CGFloat = 0.0
 
     // MARK: - Events
